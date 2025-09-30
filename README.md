@@ -1,37 +1,39 @@
-# Bank System
+Bank System
 
-A simple Java-based banking application that simulates basic operations such as account creation, deposit, withdrawal, transfers, and balance inquiry.
+This is a simple Java project that simulates a small banking system.
 
-## Table of Contents
+Features
 
-- [Features](#features)  
-- [Requirements](#requirements)  
-- [Getting Started](#getting-started)  
-  - [Installation](#installation)  
-  - [Running the App](#running-the-app)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
+Create and manage bank accounts
 
-## Features
+Card transactions: deposit, withdraw, transfer, block card
 
-- Create bank accounts  
-- Deposit and withdraw money  
-- Transfer funds between accounts  
-- Check account balance  
-- Input validation & error handling  
+Bank account transactions
 
-## Requirements
+Schedule and manage bank appointments
 
-- Java JDK 8 or above  
-- (Optional) An IDE like IntelliJ, Eclipse, or NetBeans  
+How it works
 
-## Getting Started
+Models → Classes like Account, CardAccount, Appointment
 
-### Installation
+Transactions → Classes like CardTransaction, BankAccountTransaction
 
-1. Clone the repository:
+AppointmentManager → Handles customer appointment scheduling and ordering
 
-   ```bash
-   git clone https://github.com/harjumayan/bank_system.git
+Example
+
+Deposit or withdraw money from accounts
+
+Transfer money between accounts
+
+Block/unblock a card
+
+Schedule and view appointments by priority
+
+How to run
+
+Clone this repository
+
+Compile Java files
+
+Run your Main class
