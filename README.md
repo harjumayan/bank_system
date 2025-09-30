@@ -1,39 +1,25 @@
-Bank System
+# Bank System  
 
-This is a simple Java project that simulates a small banking system.
+This is a simple Java project that simulates a small **banking system**.  
 
-Features
+## Features  
+- Create and manage bank accounts  
+- Card transactions: deposit, withdraw, transfer, block card  
+- Bank account transactions  
+- Schedule and manage bank appointments  
 
-Create and manage bank accounts
+## How it works  
+- **Models** → Classes like `Account`, `CardAccount`, `Appointment`  
+- **Transactions** → Classes like `CardTransaction`, `BankAccountTransaction`  
+- **AppointmentManager** → Handles customer appointment scheduling and ordering  
 
-Card transactions: deposit, withdraw, transfer, block card
+## Example  
+- Deposit or withdraw money from accounts  
+- Transfer money between accounts  
+- Block/unblock a card  
+- Schedule and view appointments by priority  
 
-Bank account transactions
-
-Schedule and manage bank appointments
-
-How it works
-
-Models → Classes like Account, CardAccount, Appointment
-
-Transactions → Classes like CardTransaction, BankAccountTransaction
-
-AppointmentManager → Handles customer appointment scheduling and ordering
-
-Example
-
-Deposit or withdraw money from accounts
-
-Transfer money between accounts
-
-Block/unblock a card
-
-Schedule and view appointments by priority
-
-How to run
-
-Clone this repository
-
-Compile Java files
-
-Run your Main class
+## How to run  
+1. Clone this repository  
+2. Compile Java files  
+3. Run your `Main` class  
